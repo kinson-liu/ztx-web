@@ -1,0 +1,5 @@
+pipeline_template: ops/iview-admin
+GIT_URL: "https://git.code.tencent.com/WeTax-Ops/Ops-Top.git"
+PROJECT_NAME: "ops-top"
+PROJECT_COMMENT: "问题排查平台(前端)" 
+DIST_PATH: "/dist"
