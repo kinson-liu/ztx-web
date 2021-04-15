@@ -6,7 +6,7 @@ pipeline {
         stage("test") {
             steps {
                 container("test k8s") {
-                    echo "test"
+                    sh "docker info"
                 }
             }
         }
