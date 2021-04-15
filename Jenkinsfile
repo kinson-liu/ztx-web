@@ -6,7 +6,7 @@ pipeline {
         stage("test") {
             steps {
                 container("test k8s") {
-                    sh "sleep 7d"
+                    echo "test"
                 }
             }
         }
